@@ -1,6 +1,7 @@
-# BeatAnythingV5 - AI Osu!mania Beatmap Generator
+# BeatAnything - AI Osu!mania Beatmap Generator
 
-**BeatAnythingV5** 是一个基于深度学习的 osu!mania 谱面生成系统。它利用 **Variational Autoencoder (VAE)** 将谱面压缩到潜在空间，并使用结合了对抗生成网络 (GAN) 损失的 **Rectified Flow (DiT)** 模型，根据音频特征（EnCodec）和难度信息生成高质量的谱面。
+**BeatAnything** 是一个基于深度学习的 osu!mania 谱面生成系统。它利用 **Variational Autoencoder (VAE)** 将谱面压缩到潜在空间，并使用结合了对抗生成网络 (GAN) 损失的 **Rectified Flow (DiT)** 模型，根据音频特征（EnCodec）和难度信息生成高质量的谱面。
+目前项目处于Demo阶段
 
 ## ⚙️ 关键技术细节
 
@@ -159,4 +160,5 @@ python inference_full.py \
 ```
 
 ---
+
 
